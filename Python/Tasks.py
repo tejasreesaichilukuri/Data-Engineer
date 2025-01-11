@@ -49,8 +49,15 @@ Result= positive and greater
 print(Result)
 """
 #you have 3users x,y,z  electricity bills check the sum of any two users should be always greater than 3bill?
+"""
 x=int(input("Enter the Electricity bill amount: "))
 y=int(input("Enter the Electricity bill amount: "))
 z=int(input("Enter the Electricity bill amount: "))
 condition= x+y > z and y+z > x and z+x > y
 print(condition)
+"""
+#LOOPS
+"""
+which allows code to excute several times
+- for loop
+-while loop - till the condition is true the while loops execute the particular block of code.
